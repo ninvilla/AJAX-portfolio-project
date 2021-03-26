@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0em;
+    padding: 0em;
+}
+.jumbotron{
+    background: url("img/jumbo-bg.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.search{
+    justify-content: center !important;
+}
+#search-bar{
+    width: 40em;
+}
+img{
+    height: 18.75em;
+    margin: 1em;
+}
+#recipe-box{
+    margin: 1.8em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.recipe-info{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+h2{
+    font-family: "permanent marker", sans-serif;
+}
+h3{
+    font-family: "permanent marker", sans-serif;
+    margin-top: 1em;
+}
+.foodImgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em 0em 3em 0em;
+    padding: 1em;
+    
+}
+
+@media only screen and (min-width: 481px){
+    .jumbotron h1{
+        font-family: "permanent marker", sans-serif;
+        font-size: 6.25em;
+    }
+    .jumbotron p{
+        font-family: "permanent marker", sans-serif;
+        font-size: 1.5em;
+    }
+    }
+@media only screen and (max-width: 481px){
+    .jumbotron h1, .jumbotron p{
+        font-family: "permanent marker", sans-serif;
+    }
+}
+
+
